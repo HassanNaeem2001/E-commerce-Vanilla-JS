@@ -1,0 +1,95 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,104,121,1) 100%, rgba(171,212,251,1) 100%);
+}
+.childdiv{
+    height: auto;
+   
+    padding: 20px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 10px black;
+    flex: 30%; /*Width*/
+    margin: 20px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+}
+.parent
+{
+    display: flex;
+    height: auto;
+}
+@media(max-width:600px)
+{
+    .parent{
+        flex-direction: column;
+        height: 100vh;
+    }
+}
+button{
+    padding: 8px;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    border: 2px solid white;
+
+}
+img
+{
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+input
+{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 92%;
+    color: white;
+    
+    
+}
+input::placeholder
+{
+    color: white;
+}
+.btnwishlist
+{
+    background-color: teal;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+  
+    
+}
+.btnwishlistdiv
+{
+    width: 80%;
+    margin: auto;
+}
+.wishlisttext
+{
+    color: white;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .wishlistbox
+  {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+  }

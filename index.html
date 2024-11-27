@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2409B - E-Commerce Project | HTML CSS and JS </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="btnwishlistdiv">
+    <button class="btnwishlist" onclick="goto()">Wishlist Section</button>
+</div>
+<div class="parent">
+    <div class="childdiv">
+        <div style="display: flex;justify-content: center;">
+            <img src="Files/shirt2.png" alt="">
+        </div>
+        <h2 style="text-align: center;text-transform: uppercase ;text-decoration: underline;color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Product 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam atque dolor sit, veritatis illo.</p>
+        <b>Price  : 500 PKR</b>
+        <br>
+        <br>
+        <input class="inp" type="number" style="padding: 8px;" placeholder="Quantity goes here">
+        <br>
+        <br>
+        <button onclick="addtocart('Product 1',500,1)">Add to Cart</button>
+    </div>
+    <div class="childdiv">
+        <div style="display: flex;justify-content: center;">
+            <img src="Files/shirt1.png" alt="">
+        </div>
+        <h2 style="text-align: center;text-transform: uppercase ;text-decoration: underline;color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Product 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam atque dolor sit, veritatis illo.</p>
+        <b>Price  : 600 PKR</b>
+        <br>
+        <br>
+        <input class="inp" type="number" style="padding: 8px;" placeholder="Quantity goes here">
+        <br>
+        <br>
+        <button onclick="addtocart('Product 2',600,2)">Add to Cart</button>
+    </div>
+    <div class="childdiv">
+       <div style="display: flex;justify-content: center;">
+        <img src="Files/shirt2.png" alt="">
+       </div>
+        <h2 style="text-align: center;text-transform: uppercase ;text-decoration: underline;color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Product 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam atque dolor sit, veritatis illo.</p>
+        <b>Price  : 800 PKR</b>
+        <br>
+        <br>
+        <input class="inp" type="number" style="padding: 8px;" placeholder="Quantity goes here">
+        <br>
+        <br>
+        <button onclick="addtocart('Product 3',800,3)">Add to Cart</button>
+
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
